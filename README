@@ -1,2 +1,3 @@
 Restart Firefox quickly, for extension developers. 
 Added a toolbarbutton to the customize ToolbarPalette, you can drag it to anywhere you like in the toolbar or addon bar.
+to zip package the source files without this read me. then, change the .zip to .xpi that will be ok to install in firefox.
