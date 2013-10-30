@@ -1,0 +1,9 @@
+content	restartfirefox	chrome/content/
+skin	restartfirefox  classic/1.0 chrome/skin/
+locale  restartfirefox  en-US  chrome/locale/en-US/
+locale restartfirefox  zh-CN  chrome/locale/zh-CN/
+
+style	chrome://global/content/customizeToolbar.xul	chrome://restartfirefox/skin/restartfirefox.css
+style	chrome://browser/content/browser.xul	chrome://restartfirefox/skin/restartfirefox.css
+
+overlay	chrome://browser/content/browser.xul chrome://restartfirefox/content/restartOverlay.xul

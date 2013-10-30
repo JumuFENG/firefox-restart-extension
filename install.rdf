@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+	<Description about="urn:mozilla:install-manifest">
+
+		<em:id>restart@restartfirefox.org</em:id>
+		<em:version>0.1 </em:version>
+		<em:type>2</em:type>
+
+		<em:targetApplication>
+			<Description>
+				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+				<em:minVersion>4.0</em:minVersion>
+				<em:maxVersion>13.0</em:maxVersion>
+			</Description>
+ 		</em:targetApplication>
+		<em:iconURL>chrome://restartfirefox/skin/icon.png</em:iconURL>
+		<em:name>FireRestart(simplified)</em:name>
+		<em:description>Restart Firefox quickly, for extension developers。
+		Added a toolbarbutton to the customize ToolbarPalette， you can drag it to anywhere you like in the toolbar or addon bar。there is also a full version which had added a menuitem to the file menu。</em:description>
+		<em:creator>JumuFENG</em:creator>
+		<em:homepageURL>http://blog.csdn.net/z6482</em:homepageURL>
+   <em:localized>
+        <Description>
+	    <em:locale>zh-CN</em:locale>
+		<em:name>FireRestart(精简版)</em:name>
+		<em:description>快速重启firefox，定制工具栏中添加了一个按钮，可手动移动到任何地方。完整版在文件菜单中增加了重新启动菜单项。</em:description>
+		<em:creator>JumuFENG</em:creator>
+		<em:homepageURL>http://blog.csdn.net/z6482</em:homepageURL>
+	</Description>
+    </em:localized>
+	</Description>
+</RDF>

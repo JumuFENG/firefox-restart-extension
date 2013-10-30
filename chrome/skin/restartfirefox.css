@@ -1,0 +1,10 @@
+/* ToolbarButton */
+#restartfirefox-button {
+  list-style-image: url("chrome://restartfirefox/skin/icon.png");
+}
+
+toolbar[iconsize="small"] #restartfirefox-button {
+  list-style-image: url("chrome://restartfirefox/skin/iconsmall.png");
+}
+
+
